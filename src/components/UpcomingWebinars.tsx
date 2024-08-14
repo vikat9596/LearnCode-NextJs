@@ -6,56 +6,57 @@ function UpcomingWebinars() {
 
   const featuredWebinars = [
     {
-      title: 'Understanding Music Theory',
+      title: 'Introduction to Web Development',
       description:
-        'Dive deep into the fundamentals of music theory and enhance your musical skills.',
-      slug: 'understanding-music-theory',
+        'Explore the basics of web development and start building your own websites.',
+      slug: 'introduction-to-web-development',
       isFeatured: true,
     },
     {
-      title: 'The Art of Songwriting',
+      title: 'JavaScript Deep Dive',
       description:
-        'Learn the craft of songwriting from experienced musicians and songwriters.',
-      slug: 'the-art-of-songwriting',
+        'Master JavaScript with in-depth lessons and hands-on projects.',
+      slug: 'javascript-deep-dive',
       isFeatured: true,
     },
     {
-      title: 'Mastering Your Instrument',
+      title: 'Building Responsive Websites',
       description:
-        'Advanced techniques to master your musical instrument of choice.',
-      slug: 'mastering-your-instrument',
+        'Learn how to create responsive websites that look great on any device.',
+      slug: 'building-responsive-websites',
       isFeatured: true,
     },
     {
-      title: 'Music Production Essentials',
+      title: 'Intro to Python Programming',
       description:
-        'Get started with music production with this comprehensive overview.',
-      slug: 'music-production-essentials',
+        'Get started with Python and learn to solve real-world problems with code.',
+      slug: 'intro-to-python-programming',
       isFeatured: true,
     },
     // Added two more webinars
     {
-      title: 'Live Performance Techniques',
+      title: 'Version Control with Git',
       description:
-        'Enhance your live performance skills with expert tips and strategies.',
-      slug: 'live-performance-techniques',
+        'Understand the fundamentals of Git and version control for collaborative coding.',
+      slug: 'version-control-with-git',
       isFeatured: true,
     },
     {
-      title: 'Digital Music Marketing',
+      title: 'Full-Stack Development Overview',
       description:
-        'Learn how to promote your music effectively in the digital age.',
-      slug: 'digital-music-marketing',
+        'A comprehensive guide to full-stack development, covering front-end and back-end technologies.',
+      slug: 'full-stack-development-overview',
       isFeatured: true,
     },
   ];
+  
 
   return (
     <div className="p-12 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED WEBINARS</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Enhance Your Musical Journey</p>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Enhance Your Coding Journey</p>
         </div>
 
         <div className="mt-10">
